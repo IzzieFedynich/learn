@@ -18,7 +18,7 @@ print("Roosters: ", 100.0 - 25.0 * 3.0 % 4.0)
 print("Now I will count the eggs", 7.0)
 # adding the eggs
 print(3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0)
-# math problem
+# true or false math problem
 print(3.0 + 2.0 < 5.0 - 7.0)
 # counting the pigs
 print("Now I will count the pigs")
