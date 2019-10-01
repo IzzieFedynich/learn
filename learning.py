@@ -20,3 +20,7 @@ print("Now I will count the eggs", 7)
 print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 # math problem
 print(3 + 2 < 5 - 7)
+# counting the pigs
+print("Now I will count the pigs")
+# adding the pigs
+print(3 + 6 + 4 % 11 - 2)
