@@ -9,18 +9,18 @@ print("This is fun.")
 # math skills demo
 
 # counting the chickens
-print("I will not count my chickens", 2)
+print("I will not count my chickens", 2.0)
 # adding hens
-print("Hens: ", 25+30/6)
+print("Hens: ", 25.0 + 30.0 / 6.0)
 # adding roosters
-print("Roosters: ", 100 - 25 * 3 % 4)
+print("Roosters: ", 100.0 - 25.0 * 3.0 % 4.0)
 # counting the eggs
-print("Now I will count the eggs", 7)
+print("Now I will count the eggs", 7.0)
 # adding the eggs
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
+print(3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0)
 # math problem
-print(3 + 2 < 5 - 7)
+print(3.0 + 2.0 < 5.0 - 7.0)
 # counting the pigs
 print("Now I will count the pigs")
 # adding the pigs
-print(3 + 6 + 4 % 11 - 2)
+print(3.0 + 6.0 + 4.0 % 11.0 - 2.0)
