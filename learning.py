@@ -24,3 +24,19 @@ print(3.0 + 2.0 < 5.0 - 7.0)
 print("Now I will count the pigs")
 # adding the pigs
 print(3.0 + 6.0 + 4.0 % 11.0 - 2.0)
+
+# variables and some of their powers
+cars = 80
+SpaceInACar = 4.0
+drivers = 45
+passengers = 115
+cars_not_driven = cars - drivers
+cars_driven = drivers
+carpool_capacity = SpaceInACar + cars_driven
+average_passengers_per_car = passengers / cars_driven
+
+print("There are", cars, "cars available,")
+print("There are only",  drivers, "drivers available today,")
+print("There will be", cars_not_driven, "empty cars today")
+print("We have", passengers, "to carpool today,")
+print("approximately",average_passengers_per_car, "in each car,")
