@@ -40,3 +40,15 @@ print("There are only",  drivers, "drivers available today,")
 print("There will be", cars_not_driven, "empty cars today")
 print("We have", passengers, "to carpool today,")
 print("approximately",average_passengers_per_car, "in each car,")
+
+# variables with food
+burgers = 150
+Customers = 125
+BurgersPerCustomer = 1
+BurgersBought = BurgersPerCustomer * burgers
+BurgersNotBought = burgers - BurgersBought
+
+print("There are", burgers, "burgers for sale")
+print("There are", Customers, "customers today")
+print("We sold", BurgersBought, "burgers today")
+print("We didn't sell", BurgersNotBought, "burgers today")
