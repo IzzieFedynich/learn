@@ -45,7 +45,7 @@ print("approximately",average_passengers_per_car, "in each car,")
 burgers = 150
 Customers = 125
 BurgersPerCustomer = 1
-BurgersBought = BurgersPerCustomer * burgers
+BurgersBought = BurgersPerCustomer * Customers
 BurgersNotBought = burgers - BurgersBought
 
 print("There are", burgers, "burgers for sale")
