@@ -52,3 +52,24 @@ print("There are", burgers, "burgers for sale")
 print("There are", Customers, "customers today")
 print("We sold", BurgersBought, "burgers today")
 print("We didn't sell", BurgersNotBought, "burgers today")
+
+# More variables and playing with output
+myName = "Izzie"
+myAge = 307
+myHeight = 61 # inches
+MyEyes = "Brown"
+myHair = "Brown"
+print("Let's talk about %s, "% myName)
+print("She's %d inches tall."% myHeight)
+print("she's got %s eyes and %s hair,"% MyEyes, myHair)
+print("when I add %d and %d, I get %d,"% myAge, myHeight)
+
+my_String = 'hello'
+print(my_String)
+
+count = 0
+for letter in 'Hello World':
+    if(letter == 'l'):
+        count += 1
+print(count,'letters found')
+
